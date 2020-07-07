@@ -1,16 +1,4 @@
-```yaml
----
-layout:     post                    # 使用的布局（不需要改）
-title:      Xshinnosuke API Docs               # 标题 
-subtitle:   Dynamic and Static deep learning framework #副标题
-date:       2020-07-07              # 时间
-author:     Eleven                      # 作者
-header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
-catalog: true                       # 是否归档
-tags:                               #标签
-    - Xshinnosuke
----
-```
+
 
 <div align=center><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1784511497,119911411&fm=26&gp=0.jpg"></div>
 

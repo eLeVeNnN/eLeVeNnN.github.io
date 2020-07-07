@@ -1,0 +1,133 @@
+/*公用*/
+*{margin: 0;padding: 0;}
+body{font-family: 'Microsoft Yahei', '微软雅黑', '宋体';font-size: 12px}
+.fl{float: left}
+.fr{float: right}
+ul{list-style: none}
+a{color: #6C6C6C;text-decoration: none}
+/*a:hover{color: #FF6537}*/
+.ahov{color: #FF6537}
+.comWidth{width: 1220px;margin: 0 auto;clear: both}
+/*头部*/
+.head{height: 30px;line-height: 30px;background-color: #F5F5F5;clear: both}
+.head_navR a:hover{color: #FF6537}
+.head_navL a:hover{color: #FF6537}
+.head_navL_a{margin-right: 10px}
+.head_navR ul li{float: left;width: 85px}
+.headCont{height: 135px;width: 100%;background-color: #fff;clear: both;padding-top: 30px}
+.headCont_logo{margin-right: 100px}
+.headCont_search{position: relative}
+.headCont_search span{display: inline-block;width: 50px;height: 30px;text-align: center;color: #FF6537;cursor: pointer}
+.headCont_search span:hover{background-color: #F9E6E6}
+.search_style{background-color: #FF6537 !important;color: #fff !important;display: inline-block;width: 50px;height: 30px;text-align: center;}
+.another_search_style{background-color: red !important;color: #fff !important;display: inline-block;width: 50px;height: 30px;text-align: center;}
+#search-box{width: 500px;height: 35px;border: 2px solid #FF6537;padding-left: 5px;outline: none;margin: 0;}
+
+#submit-box{height: 39px;border: none;color: #fff;width: 120px;background-color: #FF6537;text-align: center;
+font-size: 16px;cursor: pointer;font-weight: bold}
+.headCont_QRcode{position: relative;display: block}
+.QRcode_del{position: absolute;border: 1px solid #E4E4E4;color: #E4E4E4;width: 20px;height: 20px;text-align: center;top: 0;left: -22px;
+line-height: 20px;}
+.QRcode_del:hover{color: #CCCCCC}
+.headCont_foot{clear: both;height: 30px;line-height: 30px;width: 100%}
+.headCont_foot span a{display: inline-block;width: 180px;color: #fff;float: left;height: 32px;padding-left: 10px;
+background: #FF6537 url("zhutishichang.png") no-repeat 165px center;font-size: 14px;font-family: 宋体;font-weight: bold}
+.headCont_foot ul li{float: left;margin: 0 5px}
+.zhuti_first{margin-left: 10px;}
+.headCont_foot li{padding: 4px;height: 20px;line-height: 20px;border: 1px solid #fff;border-radius: 15px;color: #6A666F;
+font-weight: bold;font-size: 14px}
+.headCont_foot li:hover{background-color: #FF6537;color: #fff;}
+.zhuti_first li a{font-size: 16px;color: #FF6537;font-weight: bold}
+.zhuti_first li a:hover{color: #fff;}
+.zhuti_second li a:hover{color: #fff;}
+.zhuti_third li a:hover{color: #fff;}
+.container{background-color:#F5F5F5;clear: both;}
+.container_wrap{position: relative}
+.navbar ul li{height: 30px;background:#FF6537 url("icon.png")no-repeat 165px center;line-height: 30px;width: 175px;padding-left: 15px;}
+.navbar ul li:hover{background-color: #F94A14;text-decoration: underline}
+.navbar ul li a{color: #fff;font-weight: bold}
+.pics_show{margin: 10px;width: 690px;position: absolute;left: 190px;top: 0; }
+.pics_show_one{position: relative;margin-right: 10px;width: 520px;overflow: hidden;height: 280px}
+.pics_show i{display: none;width: 25px;height: 35px;background-color: #000;opacity: 0.5;position: absolute;line-height: 35px;
+    color: #fff;font-size: 20px;cursor: pointer}
+.pics_show i:hover{opacity: 0.6}
+.pics_show_one ul{position: relative}
+.pics_show_one ul li{float: left}
+.pics_show_three p{padding: 10px 0 0 48px;background: url("cat.png") no-repeat left 10px;display: inline-block;font-size: 14px;color: #6A666F;
+font-weight: bold;height: 20px;line-height: 20px;width: 60px;border-bottom: 2px solid #000;}
+.pics_show_three span{display: inline-block;font-size: 12px;color: #6A666F;width: 402px;border-bottom: 2px solid red;padding: 10px 0 0 10px;
+height: 20px;line-height: 20px}
+.pics_show_three ul{position: relative}
+.pics_show_three{position: relative;margin-right: 10px;width: 520px;height: 230px;overflow: hidden}
+.pics_show_three ul li{float: left}
+#picsCount{color: red}
+.pics_count{position: absolute;top: 10px;right: 0}
+.right_content{width: 290px;position: absolute;right: 0;top: 10px;clear: both;height: 600px;overflow: hidden}
+.right_content_top{padding: 15px 20px 25px 10px;border-bottom: 1px solid  #E4E4E4;clear: both;background-color: #fff;height: 120px}
+.right_content_top img{width: 64px;margin: 2px 100px}
+.right_content_top p{font-size: 12px;text-align: center;margin: 2px auto;}
+.right_content_top p a{margin: 0 5px}
+.right_content_top input{width: 75px;height: 25px;border: none;background-color: #FF6537;color: #fff;cursor: pointer;}
+.right_content_top input:hover{background-color: #F94A14}
+.right_content_tab{height: 110px;width: 290px;background-color: #fff;clear: both}
+.right_content_tab a:hover{color: #FF6537}
+.tab_title{width: 100%;height: 30px;line-height: 30px;clear: both}
+.tab_title ul li{float: left;width: 40px;text-align: center;margin-left: 15px ;height: 20px;padding: 0 0 5px 0;font-size: 14px}
+.tab_title_select{  border-bottom: 2px solid #FF6537;padding: 0 0 5px 0;font-weight: bold}
+.tab_content{width: 100%;height: 80px;overflow: hidden;}
+.tabct{width: 270px;height: 60px;padding: 10px;}
+.tabct ul li{float: left;width: auto;margin: 5px }
+#move{position: relative;width: 290px;height: 120px}
+.right_content_foot{width: 290px;height: 200px;position: absolute;right: 0;top: 10px;background-color: #fff; }
+.right_content_foot a{display: inline-block;width: 66px;height: 60px;border-right: 1px solid #E4E4E4;border-bottom: 1px solid #E4E4E4;
+   text-align: center;padding: 1px 1px 0 1px;z-index: 1000;margin: 0;}
+
+.right_content_foot a.right_content_foot_aover{border-right-color:red;border-top: 1px solid red;border-left: 1px solid red;
+    padding:0 ;
+}
+.right_content_foot a img{
+    width: 25px;height: 20px;margin: 10px 15px 5px}
+.right_content_foot a:hover{color: red}
+.movect{width: 268px;height:130px;padding: 10px;border-bottom: 1px solid red;border-right: 1px solid red;border-left: 1px solid red;position: absolute;
+    left: 0;top: 72px;display: none;background-color: #fff;z-index: 100;
+}
+.movect a{ margin: 10px;  }
+.movect span{float: right;cursor: pointer}
+#movect3 a{margin: 1px}
+#movect4 a{margin: 7px}
+.movect input{display: block;width: 190px;height: 20px;}
+.movect p{font-size: 14px;font-family: 宋体;margin: 5px 0}
+.movect i{font-style: normal}
+.movect button{width: 70px;height: 25px;color: #fff;background-color: #FF6537;border: none}
+.foot_content{width: 900px;height: 75px;background-color: #fff;clear: both;margin-top: 10px;}
+.foot_content a{display: inline-block;width: 180px;height: 75px;overflow: hidden;float: left}
+.foot_content a span{width: 75px;display: inline-block;height: 100%;float: left;}
+.foot_content a div{display: inline;float: left}
+.foot_content a div h3{font-style: normal;font-size: 16px;margin: 10px 0 2px 0}
+.foot_content a div p{margin-bottom: 4px}
+.foot_content a img{width: 60px;height: 60px;display: block;padding: 1px 4px;margin: 5px 0;}
+#foot_pics1{border: 1px hidden #A5846F;border-radius: 50%}
+#foot_pics2{border: 1px hidden #8AC597;border-radius: 50%}
+#foot_pics3{border: 1px hidden #7CABF6;border-radius: 50%}
+#foot_pics4{border: 1px hidden #927FCD;border-radius: 50%}
+#foot_pics5{border: 1px hidden #E16670;border-radius: 50%}
+.foot_pics1:hover #foot_pics1{border-style: solid;opacity: 0.8;padding: 0 3px}
+.foot_pics2:hover #foot_pics2{border-style: solid;opacity: 0.8;padding: 0 3px}
+.foot_pics3:hover #foot_pics3{border-style: solid;opacity: 0.8;padding: 0 3px}
+.foot_pics4:hover #foot_pics4{border-style: solid;opacity: 0.8;padding: 0 3px}
+.foot_pics5:hover #foot_pics5{border-style: solid;opacity: 0.8;padding: 0 3px}
+.foot_pics1 h3,.foot_pics1 p{color: #A5846F}
+.foot_pics2 h3,.foot_pics2 p{color: #8AC597}
+.foot_pics3 h3,.foot_pics3 p{color: #7CABF6}
+.foot_pics4 h3,.foot_pics4 p{color: #927FCD}
+.foot_pics5 h3,.foot_pics5 p{color: #E16670}
+.aliApp{width: 280px;height: 95px;background-color: #fff;position: relative;top:100px;padding: 10px 5px}
+.aliApp p{height: 25px;width: 275px;color: #3C3C3C;line-height: 25px;padding-left: 5px}
+.aliApp p span{font-size: 14px;font-weight: bold}
+.aliApp p a{float: right;font-size: 14px}
+.aliApp .jianjie a{margin: 0 9px}
+.aliApp .jianjie a img{width: 35px;height: 35px;}
+.qrjihe a{position: absolute;z-index: 1000;width: 95px;height: 100px;background-color: #fff;
+    top: -70px;left: -10px;display: none}
+.qrjihe a img{width: 65px;height: 65px;margin: 0 15px }
+.qrjihe a p{text-align: center;display: inline-block;width: 75px;margin-left: 5px}

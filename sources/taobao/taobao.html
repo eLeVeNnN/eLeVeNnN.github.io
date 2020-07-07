@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="tbstyle.css" type="text/css">
+    <script src="tb.js"></script>
+    <script src="move.js"></script>
+</head>
+<body>
+  <div class="head">
+      <div class="comWidth">
+          <div class="head_navL fl">
+              <div class="head_navL_a fl">
+                  <a href="" class="ahov">亲，请登录</a>
+                  <a href="">免费注册</a>
+              </div>
+              <a href="">手机逛淘宝</a>
+          </div>
+          <div class="head_navR fr">
+              <ul class="fl">
+                  <li><a href="">我的淘宝</a></li>
+                  <li><a href="">购物车</a></li>
+                  <li><a href="">收藏夹</a></li>
+                  <li><a href="">商品分类</a></li>
+              </ul>
+              <ul class="fl">
+                  <li><a href="">卖家中心</a></li>
+                  <li><a href="">联系客服</a></li>
+                  <li><a href="">网站导航</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="headCont">
+          <div class="comWidth">
+          <div class="headCont_logo fl">
+              <a href=""><img src="logo.png" alt=""/></a>
+          </div>
+          <div class="headCont_search fl" id="search-list">
+              <span class="search_style">宝贝</span>
+              <span>天猫</span>
+              <span>店铺</span><br>
+              <input type="text" placeholder="爱车小挂件" class="searchbox fl" id="search-box">
+              <input type="submit" value="搜索" class="submitbox fl" id="submit-box">
+          </div>
+          <div class="headCont_QRcode fr" id="headCont_QRcode">
+              <a class="QRcode_del" onclick="show('headCont_QRcode','none')">X</a>
+              <a href=""><img src="mobiletb.png" alt="" style="border: 1px solid #E4E4E4"></a>
+          </div>
+          <div class="headCont_foot ">
+              <span><a href="">主题市场</a></span>
+              <ul class="fl zhuti_first">
+                  <li><a href="">天猫</a></li>
+                  <li><a href="">聚划算</a></li>
+                  <li><a href="">天猫超市</a></li>
+              </ul>
+              <ul class="fl zhuti_second">
+                  <li><a href="">淘抢购</a></li>
+                  <li><a href="">电器城</a></li>
+                  <li><a href="">司法拍卖</a></li>
+                  <li><a href="">中国质造</a></li>
+                  <li><a href="">特色中国</a></li>
+              </ul>
+              <ul class="fl zhuti_third">
+                  <li><a href="">阿里旅行</a></li>
+                  <li><a href="">智能生活</a></li>
+                  <li><a href="">苏宁易购</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+  </div>
+<div class="container">
+    <div class="comWidth container_wrap">
+        <div class="navbar">
+            <ul>
+                <li><a href=""> 女装 / 男装 / 内衣</a></li>
+                <li><a href=""> 鞋靴 / 箱包 / 配件</a></li>
+                <li><a href=""> 童装玩具 / 孕产 / 用品</a></li>
+                <li><a href=""> 家电 / 数码 / 手机</a></li>
+                <li><a href=""> 美妆 / 洗护 / 保健品</a></li>
+                <li><a href=""> 珠宝 / 眼镜 / 手表</a></li>
+                <li><a href=""> 运动 / 户外 / 乐器</a></li>
+                <li><a href=""> 游戏 / 动漫 / 影视</a></li>
+                <li><a href=""> 美食 / 生鲜 / 零食</a></li>
+                <li><a href=""> 鲜花 / 宠物 / 农资</a></li>
+                <li><a href=""> 房产 / 装修 / 建材</a></li>
+                <li><a href=""> 家具 / 家饰 / 家纺</a></li>
+                <li><a href=""> 汽车 / 二手车 / 用品</a></li>
+                <li><a href=""> 办公 / DIY / 五金电子</a></li>
+                <li><a href=""> 百货 / 收纳 / 家庭保健</a></li>
+                <li><a href=""> 学习 / 卡券 / 本地服务</a></li>
+            </ul>
+            <a href=""><img src="chunxiaxinpin.jpg" style="width: 190px;height: 40px"></a>
+        </div>
+        <div class="pics_show " id="pics_show">
+            <div class="pics_show_one fl" id="pics-one">
+                <ul>
+                    <li><a href=""><img src="lunbo1.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunbo2.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunb04.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunbo5.jpg" alt=""/></a></li>
+                </ul>
+                <i style="left: 0;top: 140px">&lt;</i>
+                <i style="left: 495px;top: 140px">&gt;</i>
+            </div>
+            <div class="pics_show_two fl">
+                <a href=""><img src="lunboyou.jpg" alt=""/></a>
+            </div>
+            <div class="pics_show_three fl" id="pics-three">
+                <p>天猫必逛</p><span>热门品牌,天天上天猫!</span>
+                <div class="pics_count"><small id="picsCount">1</small>/4</div>
+                <ul>
+                    <li><a href=""><img src="lunbo6.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunbo7.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunbo8.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="lunbo9.jpg" alt=""/></a></li>
+                </ul>
+                <i style="left: 0;top: 102px">&lt;</i>
+                <i style="left: 495px;top: 102px">&gt;</i>
+            </div>
+            <div class="pics_show_four fl">
+                <p>今日特卖</p>
+                <a href=""><img src="lunboyouxia.png" alt="" style="width: 160px"></a>
+            </div>
+        </div>
+        <div class="right_content ">
+            <div class="right_content_top">
+                <img src="sun.png"><br>
+                <p>Hi你好</p>
+                <p><a href="" class="ahov">领淘金币抵钱</a><span>或去</span><a href="" class="ahov">会员俱乐部</a></p>
+                <input type="button" value="登录" style="width: 90px;">
+                <input type="button" value="注册">
+                <input type="button" value="开店">
+            </div>
+            <div class="right_content_tab">
+                <div class="tab_title" id="tab_title">
+                    <ul>
+                        <li class="tab_title_select"><a href="">公告</a></li>
+                        <li><a href="">规则</a></li>
+                        <li><a href="">论坛</a></li>
+                        <li><a href="">安全</a></li>
+                        <li><a href="">公益</a></li>
+                    </ul>
+                </div>
+                <div class="tab_content" id="tab_content">
+             <div class="tabct" style="display: block">
+                 <ul>
+                     <li><a href="">淘宝出台史上最严开店规则 </a></li>
+                     <li><a href="">严禁换"马甲"重开</a></li>
+                     <li><a href="">"淘宝玩客"正式上线</a></li>
+                     <li><a href="">天猫与迪士尼战略合作</a></li>
+                 </ul>
+             </div>
+             <div class="tabct" style="display: none">
+                 <ul>
+                     <li><a href="">出售假冒商品规则变更 </a></li>
+                     <li><a href="">商品发布数量限制变更</a></li>
+                     <li><a href="">中国质造市场管理规范</a></li>
+                     <li><a href="">淘宝网营销规则变更</a></li>
+                 </ul>
+             </div>
+             <div class="tabct" style="display: none">
+                 <ul>
+                     <li><a href="">淘宝招募卖家志愿者 </a></li>
+                     <li><a href="">阿里推出兼职神器</a></li>
+                     <li><a href="">700家热风淘宝路</a></li>
+                     <li><a href="">是赚钱还是骗子</a></li>
+                 </ul>
+             </div>
+             <div class="tabct" style="display: none">
+                 <ul>
+                     <li><a href="">淘宝用户必备神器 </a></li>
+                     <li><a href="">卖家账户安全9守则</a></li>
+                     <li><a href="">支付宝实名认证信息</a></li>
+                     <li><a href="">账户没钱也被骗？</a></li>
+                 </ul>
+             </div>
+             <div class="tabct" style="display: none">
+                 <ul>
+                     <li><a href="">阿里联合公益计划启动 </a></li>
+                     <li><a href="">一图看懂联合公益计划</a></li>
+                     <li><a href="">公益宝贝卖家发票索取</a></li>
+                     <li><a href="">公益机构淘宝开店攻略</a></li>
+                 </ul>
+             </div>
+                </div>
+            </div>
+            <div id="move">
+                <div class="right_content_foot">
+                <a href="#"><i><img src="TB1d0jOLVXXXXcCXFXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>充话费</p></a>
+                <a href="#"><i><img src="TB1em_PLVXXXXa_XFXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>游戏</p></a>
+                <a href="#"><i><img src="TB1G7PZLVXXXXXqXpXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>旅行</p></a>
+                <a href="#" style="border-right: none"><i><img src="TB1IHDzLVXXXXakapXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>保险</p></a>
+                <a href="#"><i><img src="TB1Jg2KLVXXXXaNXVXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>彩票</p></a>
+                <a href="#"><i><img src="TB1kRDQLVXXXXaIXFXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>电影</p></a>
+                <a href="#"><i><img src="TB1krnHLVXXXXc3XVXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>点外卖</p></a>
+                <a href="#" style="border-right: none"><i><img src="TB1rTYLLVXXXXXSXVXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>理财</p></a>
+                <a href="#" style="border-bottom: none"><i><img src="TB1SxPILVXXXXbLXVXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>找服务</p></a>
+                <a href="#" style="border-bottom: none"><i><img src="TB1VmPWLVXXXXaRXpXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>音乐</p></a>
+                <a href="#" style="border-bottom: none"><i><img src="TB1YcvILVXXXXbzXVXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>水电煤</p></a>
+                <a href="#" style="border-right: none;border-bottom: none"><i><img src="TB156fQLVXXXXaSXFXXXXXXXXXX-48-48.png_40x40.jpg"></i><p>火车票</p></a>
+
+                </div>
+                <div id="movecontent">
+                <div class="movect" id="movect1">
+                    <a href="">充话费</a>
+                    <a href="" class="ahov">充流量</a>
+                    <a href="">充固话</a>
+                    <a href="">充宽带</a>
+                    <span onclick="show('movect1','none')">X</span>
+                    <input type="text" placeholder="请输入手机号码" style="margin: 10px">
+                    <input type="text" >
+                    <p>售价¥<i class="ahov">49-49.8</i></p>
+                    <button>立即充值</button>
+                </div>
+                <div class="movect" id="movect2">
+                    <a href="" class="ahov">点卡</a>
+                    <a href="">QQ</a>
+                    <a href="">游戏币</a>
+                    <a href="">网页游戏</a>
+                    <span onclick="show('movect2','none')">X</span>
+                    <input type="text" placeholder="请输入手机号码" style="margin: 10px">
+                    <input type="text" >
+                    <p>售价¥<i class="ahov">49-49.8</i></p>
+                    <button>立即充值</button>
+                </div>
+                <div class="movect" id="movect3">
+                    <a href="">国内机票</a>
+                    <a href="">国际机票</a>
+                    <a href="">酒店客栈</a>
+                    <a href="">度假门票</a>
+                    <a href="" class="ahov">火车票</a>
+                    <span onclick="show('movect3','none')">X</span>
+                    <input type="text" placeholder="请输入手机号码" style="margin: 10px">
+                    <input type="text" >
+                    <p>售价¥<i class="ahov">49-49.8</i></p>
+                    <button>立即充值</button>
+                </div>
+                <div class="movect" id="movect4">
+                    <a href="">车险</a>
+                    <a href="">意外险</a>
+                    <a href="">健康险</a>
+                    <a href="">旅行险</a>
+                    <a href="" class="ahov">财产险</a>
+                    <span onclick="show('movect4','none')">X</span>
+                    <input type="text" placeholder="请输入手机号码" style="margin: 10px">
+                    <input type="text" >
+                    <p>售价¥<i class="ahov">49-49.8</i></p>
+                    <button>立即充值</button>
+                </div>
+                </div>
+            </div>
+            <div class="aliApp">
+                <p><span>阿里APP</span>
+                <a href="">更多  ></a></p>
+                <div class="jianjie">
+                    <a href="" onmouseover="show('qrjihe1','block')" onmouseout="show('qrjihe1','none')"><img src="taobao.jpg"></a>
+                    <a href=""><img src="tianmao.jpg"></a>
+                    <a href=""><img src="huhuasuan.jpg"></a>
+                    <a href=""><img src="qua.jpg"></a>
+                    <a href=""><img src="xianyu.jpg"></a>
+                    <a href=""><img src="zhifubao.jpg"></a>
+                    <a href=""><img src="dingding.jpg"></a>
+                    <a href=""><img src="gaode.jpg"></a>
+                    <a href=""><img src="wangwang.jpg"></a>
+                    <a href=""><img src="xiandun.jpg"></a>
+                </div>
+                <div class="qrjihe">
+                    <a href="" id="qrjihe1"><img src="saosaotaobao.jpg"><p>扫一扫淘宝</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="foot_content">
+            <a href="" class="foot_pics1">
+                <span><img src="bitun.jpg" id="foot_pics1"></span>
+                <div>
+                    <h3>必囤生活馆</h3>
+                    <p>会囤会生活</p>
+                    <small>人气257</small>
+                </div>
+            </a>
+            <a href="" class="foot_pics2">
+                <span><img src="jiuai.jpg" id="foot_pics2"></span>
+                <div>
+                    <h3>茶道中人</h3>
+                    <p>茶者，心静也</p>
+                    <small>最新发现</small>
+                </div>
+            </a>
+            <a href="" class="foot_pics3">
+                <span><img src="gaofu.jpg" id="foot_pics3"></span>
+                <div>
+                    <h3>高富帅</h3>
+                    <p>男神养成计划</p>
+                    <small>人气378</small>
+                </div>
+            </a>
+            <a href="" class="foot_pics4">
+                <span><img src="oumei.jpg" id="foot_pics4"></span>
+                <div>
+                    <h3>欧美型男</h3>
+                    <p>够潮够范儿</p>
+                    <small>人气179</small>
+                </div>
+            </a>
+            <a href="" class="foot_pics5">
+                <span><img src="wenixang.jpg" id="foot_pics5"></span>
+                <div>
+                    <h3>闻香识人</h3>
+                    <p>香味暴露品味</p>
+                    <small>最先发现</small>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

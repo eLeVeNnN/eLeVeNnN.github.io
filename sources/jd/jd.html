@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="move.js"></script>
+    <script src="JD.js"></script>
+    <link rel="stylesheet" href="JD.css" type="text/css">
+</head>
+<body>
+ <div id="head">
+     <div class="hongbao"><a href=""><img src="618红包.png"></a></div>
+     <div id="head_wrap">
+         <ul>
+         <li id="loc" class="loc" onmouseover="show('location','block')" onmouseout="show('location','none')">送至:北京</li>
+           <div id="location"  class="location" onmouseover="show('location','block')" onmouseout="show('location','none')">
+               <a href="#">北京</a><a href="#">上海</a><a href="#">天津</a><a href="#">重庆</a><a href="#">河北</a>
+               <a href="#">山西</a><a href="#">河南</a><a href="#">辽宁</a><a href="#">吉林</a>
+               <a href="#">黑龙江</a><a href="#">内蒙古</a><a href="#">江苏</a><a href="#">山东</a>
+               <a href="#">安徽</a><a href="#">浙江</a><a href="#">福建</a><a href="#">湖北</a><a href="#">湖南</a>
+               <a href="#">广东</a><a href="#">广西</a><a href="#">江西</a><a href="#">四川</a><a href="#">海南</a>
+               <a href="#">贵州</a><a href="#">云南</a><a href="#">西藏</a><a href="#">陇西</a><a href="#">甘肃</a>
+               <a href="#">青海</a><a href="#">宁夏</a><a href="#">新疆</a><a href="#">台湾</a><a href="#">香港</a>
+               <a href="#">澳门</a><a href="#">钓鱼岛</a><a href="#">海外</a>
+         </div>
+         </ul>
+         <ul>
+             <li><a href="#">你好，请登录</a></li>
+             <li><a href="#" style="color: #FF0000">免费注册</a></li>
+             <li><div><a href="#">我的订单</a></div></li>
+             <li><div><a href="#">我的京东</a></div></li>
+             <li><div><a href="#">京东会员</a></div></li>
+             <li><div><a href="#">企业采购</a></div></li>
+             <li onmouseover="show('shoujijd','block')" onmouseout="show('shoujijd','none')"><div><a href="#" class="tele">手机京东</a></div>
+             <div><img src="手机京东下拉.png" id="shoujijd"></div></li>
+             <li onmouseover="show('guanzhujd','block')" onmouseout="show('guanzhujd','none')"><div>关注京东</div>
+             <div><img src="关注京东.png" id="guanzhujd"></div></li>
+             <li onmouseover="show('kehufw','block')" onmouseout="show('kehufw','none')"><div>客户服务</div>
+             <div><img src="客户服务.png" id="kehufw"></div></li>
+             <li onmouseover="show('wangzhandh','block')" onmouseout="show('wangzhandh','none')"><div>网站导航</div>
+             <div><img src="网站导航.png" id="wangzhandh"></div></li>
+         </ul>
+     </div>
+ </div>
+<div id="top-banner">
+    <a href="http://sale.jd.com/act/JrwqAk8oGmWQCsB.html?cpdad=1DLSUE"><img src="京东狂欢节.png"></a>
+</div>
+<div id="wsearch">
+    <div id="logo">
+        <a href="http://www.jd.com/"><img src="京东logo.png"></a>
+    </div>
+    <div id="search">
+        <input type="text" placeholder="魅族">
+        <button>搜索</button>
+        <p>
+            <a href="">玩转3C</a><a href="">2合1神器</a>
+            <a href="">99减50</a><a href="">小米Max</a>
+            <a href="">直降618元</a><a href="">增高鞋</a>
+            <a href="">高箱床具</a><a href="">免费试用</a><a href="">玩具</a>
+        </p>
+    </div>
+    <div id="settleup">
+        <div class="cw-icon" onmouseover="show('cw-icon_dropdown','block')" onmouseout="show('cw-icon_dropdown','none')">
+            <i class="ci-left"><img src="购物车.png"></i>
+            <a href="#">我的购物车</a>
+            <i class="ci-right"><img src="箭头.png"></i>
+            <i class="ci-count"></i>
+        </div>
+        <div id="cw-icon_dropdown"><img src="购物车5.png"></div>
+    </div>
+</div>
+<div id="content">
+    <div class="subtitle">
+        <span><a href="#" style="color: white">全部商品分类</a></span>
+        <a href="#">服装城</a>
+        <a href="#">美妆馆</a>
+        <a href="#">超市</a>
+        <a href="#">生鲜</a>
+        <a href="#">全球购</a>
+        <a href="#">闪购购</a>
+        <a href="#">团购</a>
+        <a href="#">拍卖</a>
+        <a href="#">金融</a>
+    </div>
+    <div class="fengexian"></div>
+    <ul id="conten_ul1">
+        <li>
+    <div id="guide">
+        <ul class="submenu">
+            <li><a href="#">家用电器</a><span></span>
+                <div class="floatcont">
+                    <div style="float: left;width: 750px;margin: 5px" class="leftdiv">
+                        <dl>
+                            <dt><a href="#">大家电 ></a></dt>
+                            <dd>
+                                <a href="#">平板电视</a><a href="#">空调</a><a href="#">冰箱</a><a href="#">洗衣机</a><a href="#">家庭影院</a>
+                                <a href="#">DVD</a><a href="#">迷你音响</a><a href="#">冷柜/冰吧</a><a href="#">酒柜</a><a href="#">家电配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">厨卫大电 ></a></dt>
+                            <dd>
+                                <a href="#">油烟机</a><a href="#">燃气灶</a><a href="#">烟灶套装</a><a href="#">消毒柜</a><a href="#">洗碗机</a>
+                                <a href="#">电热水器</a><a href="#">燃气热水泵</a><a href="#">嵌入式厨电</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">厨房小电 ></a></dt>
+                            <dd>
+                                <a href="#">电饭煲</a><a href="#">微波炉</a><a href="#">电烤箱</a><a href="#">电磁炉</a><a href="#">电压力锅</a>
+                                <a href="#">豆浆机</a><a href="#">咖啡机</a><a href="#">面包机</a><a href="#">榨汁机</a><a href="#">料理机</a>
+                                <a href="#">电饼铛</a><a href="#">养生壶/煎药壶</a><a href="#">酸奶机</a><a href="#">煮蛋器</a><a href="#">电水壶/热水瓶</a>
+                                <a href="#">电炖锅</a><a href="#">多用途锅</a><a href="#">电烧烤炉</a><a href="#">电热饭盒</a><a href="#">其他厨房电器</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">生活电器 ></a></dt>
+                            <dd>
+                                <a href="#">电风扇</a><a href="#">冷风扇</a><a href="#">吸尘器</a><a href="#">净化器</a><a href="#">扫地机器人</a>
+                                <a href="#">加湿器</a><a href="#">挂烫机/熨斗</a><a href="#">取暖电器</a><a href="#">插座</a><a href="#">电话机</a>
+                                <a href="#">净水器</a><a href="#">饮水机</a><a href="#">除湿器</a><a href="#">干衣机</a><a href="#">清洁机</a>
+                                <a href="#">收/录音机</a><a href="#">其他生活电器</a><a href="#">生活电器配件</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">个护健康 ></a></dt>
+                            <dd>
+                                <a href="#">剃须刀</a><a href="#">口腔护理</a><a href="#">电吹风</a><a href="#">美容器</a><a href="#">卷/直发器</a>
+                                <a href="#">理发器</a><a href="#">剃/脱毛器</a><a href="#">足浴盆</a><a href="#">健康秤/厨房秤</a><a href="#">按摩器</a>
+                                <a href="#">按摩椅</a><a href="#">血压计</a><a href="#">血糖仪</a><a href="#">体温计</a><a href="#">计步器/脂肪检测仪</a>
+                                <a href="#">其他健康电器</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="#">五金家装 ></a></dt>
+                            <dd>
+                                <a href="#">电动工具</a><a href="#">手动工具</a><a href="#">仪器仪表</a><a href="#">浴霸/排气器</a><a href="#">灯具</a>
+                                <a href="#">LED灯</a><a href="#">洁身器</a><a href="#">水槽</a><a href="#">龙头</a><a href="#">淋浴花洒</a>
+                                <a href="#">厨卫五金</a><a href="#">家具五金</a><a href="#">门铃</a><a href="#">电气开关</a><a href="#">插座</a>
+                                <a href="#">电工电科</a><a href="#">监控安防</a><a href="#">电线/线缆</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div style="background-color: antiquewhite;float: left;width: 200px;margin: 5px">右侧推荐品牌</div>
+                </div></li>
+            <li><a href="#">手机、数码、京东通信</a></li>
+            <li><a href="#">电脑、办公</a></li>
+            <li><a href="#">家居、家具、家装、厨具</a></li>
+            <li><a href="#">男装、女装、童装、内衣</a></li>
+            <li><a href="#">个护化妆、清洁用品、宠物</a></li>
+            <li><a href="#">鞋靴、箱包、珠宝、奢侈品</a></li>
+            <li><a href="#">运动户外、钟表</a></li>
+            <li><a href="#">汽车、汽车用品</a></li>
+            <li><a href="#">母婴、玩具乐器</a></li>
+            <li><a href="#">食品、酒类、生鲜、特产</a></li>
+            <li><a href="#">营养保健</a></li>
+            <li><a href="#">图书、音像、电子书</a></li>
+            <li><a href="#">彩票、旅行、充值、票务</a></li>
+            <li><a href="#">理财、众筹、白条、保险</a></li>
+        </ul>
+    </div>
+        </li>
+        <li>
+            <div id="pics">
+                <ul class="big_pic">
+                    <div class="prev"></div>
+                    <div class="next"></div>
+                    <a class="mark_left" href="javascript:"></a>
+                    <a class="mark_right" href="javascript:"></a>
+                    <div class="bg"></div>
+                    <li style="z-index:1;"><img src="轮播1.jpg" /></li>
+                    <li><img src="轮播2.jpg" /></li>
+                    <li><img src="轮播3.jpg" /></li>
+                    <li><img src="轮播4.jpg" /></li>
+                    <li><img src="轮播5.jpg" /></li>
+                    <li><img src="轮播6.jpg" /></li>
+                </ul>
+            </div>
+            <div id="pic_index">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <div id="youcedaohang">
+                <dl>
+                    <dt>京东快报</dt><a href="">更多 ></a>
+                    <dd><a href="" style="color: red"><b style="color: red">[618]</b> 618霸气登场 超值好货提前定</a></dd>
+                    <dd><a href=""><b>[公告]</b> 刘强东首部口述新书上市</a></dd>
+                    <dd><a href=""><b>[特惠]</b> 老刘中国行 上海站 1元开抢</a></dd>
+                    <dd><a href=""><b>[公告]</b> 华东浦东大件运营中心正式运营</a></dd>
+                    <dd><a href=""><b>[特惠]</b> 帮宝适干爽保卫战 爆品直降</a></dd>
+                </dl>
+                <div class="tab" id="tab">
+                    <div class="tabtitle" id="tabtitle">
+                       <ul>
+                           <li><a href="">话费</a></li>
+                           <li class="titleselect"><a href="">机票</a></li>
+                           <li><a href="">电影票</a></li>
+                           <li><a href="">游戏</a></li>
+                       </ul>
+                    </div>
+                    <div class="tabcontent">
+                       <div class="tabct">
+                            <span>
+                        <a href="">话费充值</a>
+                        <a href="">流量充值</a>
+                        <a href="">套餐变更</a>
+                    </span><form>
+                           <label>号码</label><input type="text"><br>
+                           <label>面值</label>
+                           <select>
+                           <option>10元</option>
+                           <option>20元</option>
+                           <option>30元</option>
+                           <option>50元</option>
+                           <option>100元</option>
+                           <option>200元</option>
+                           <option>300元</option>
+                           <option>500元</option>
+                       </select>
+                       </form>
+                       </div>
+                    </div>
+                </div>
+                <div class="tabpic">
+                    <ul>
+                    <li id="huafei">
+                        <a href="">
+                            <div><img src="右侧1.png"></div>
+                            <p>话费</p>
+                        </a>
+                    </li>
+                    <li id="jipiao">
+                        <a href=""><div><img src="右侧2.png" alt=""/></div>
+                            <p>机票</p></a>
+                    </li>
+                    <li id="dianying">
+                        <a href=""><div><img src="右侧3.png" alt=""/></div>
+                            <p>电影票</p></a>
+                    </li>
+                    <li id="youxi">
+                        <a href=""><div><img src="右侧4.png" alt=""/></div>
+                            <p>游戏</p></a>
+                    </li>
+                    <li id="caipiao">
+                        <a href=""><div><img src="右侧5.png" alt=""/></div>
+                            <p>彩票</p></a>
+                    </li>
+                    <li id="tuangou">
+                        <a href=""><div><img src="右侧6.png" alt=""/></div>
+                            <p>团购</p></a>
+                    </li>
+                    <li id="jiudian">
+                        <a href=""> <div><img src="右侧7.png" alt=""/></div>
+                            <p>酒店</p></a>
+                    </li>
+                    <li id="huoche">
+                        <a href=""><div><img src="右侧8.png" alt=""/></div>
+                            <p>火车票</p></a>
+                    </li>
+                    <li id="zhongchou">
+                        <a href=""><div><img src="右侧9.png" alt=""/></div>
+                            <p>众筹</p></a>
+                    </li>
+                    <li id="licai">
+                        <a href=""><div><img src="右侧10.png" alt=""/></div>
+                            <p>理财</p></a>
+                    </li>
+                    <li id="lipin">
+                        <a href=""><div><img src="右侧11.png" alt=""/></div>
+                            <p>礼品卡</p></a>
+                    </li>
+                    <li id="baitiao">
+                        <a href=""><div><img src="右侧12.png" alt=""/></div>
+                            <p>白条</p></a>
+                    </li>
+                </ul>
+                </div>
+                <a href=""><img src="右侧.png"></a>
+            </div>
+        </li>
+        <li>
+            <div id="dibutupian">
+                <ul>
+                    <li style="width: 210px;margin-right: -3px"><a href=""><img src="底部1.png"></a></li>
+                    <li><a href=""><img src="底部2.png"></a></li>
+                    <li><a href=""><img src="底部3.png"></a></li>
+                    <li><a href=""><img src="底部4.png"></a></li>
+                    <li><a href=""><img src="底部5.png"></a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div id="container">
+    <div class="cainixihuan">
+        <p>猜你喜欢</p>
+        <ul>
+            <span class="line"></span>
+            <li><a href=""><img src="猜你喜欢1.png"></a></li>
+            <li><a href=""><img src="猜你喜欢2.png"></a></li>
+            <li><a href=""><img src="猜你喜欢3.png"></a></li>
+            <li><a href=""><img src="猜你喜欢4.png"></a></li>
+            <li><a href=""><img src="猜你喜欢5.png"></a></li>
+            <li><a href=""><img src="猜你喜欢6.png"></a></li>
+        </ul>
+    </div>
+    <div id="pinzhishenghuo">
+       <div class="pinzhishenghuo">
+           <p>京东 · 品质生活</p>
+           <a href=""><img src="京东品质生活.png" style="width: 1210px"></a>
+           <a href=""><img src="QQ图片20160528001631.png" style="width: 1206px"></a>
+       </div>
+        <div id="cebianmenu">
+            <ul>
+                <li><a href="#item1" class="current" title="服饰">1F</a></li>
+                <li><a href="#item2" title="美妆">2F</a></li>
+                <li><a href="#item3" title="手机">3F</a></li>
+                <li><a href="#item4" title="家电">4F</a></li>
+                <li><a href="#item5" title="数码">5F</a></li>
+                <li><a href="#item6" title="运动">6F</a></li>
+                <li><a href="#item7" title="居家">7F</a></li>
+                <li><a href="#item8" title="母婴">8F</a></li>
+                <li><a href="#item9" title="食品">9F</a></li>
+                <li><a href="#item10" title="图书">10F</a></li>
+                <li><a href="#item11" title="车品">11F</a></li>
+                <li><a href="#item12" title="服务">12F</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item1">
+        <h3>服装鞋包</h3>
+        <ul>
+            <li class="li_hover"><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item2">
+        <h3>个护美妆</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item3">
+        <h3>手机通讯</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item4">
+        <h3>家用电器</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item5">
+        <h3>电脑数码</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item6">
+        <h3>运动健身</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item7">
+        <h3>居家生活</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item8">
+        <h3>母婴玩具</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item9">
+        <h3>食品保健</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item10">
+        <h3>图书音像</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item11">
+        <h3>整车用品</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item" id="item12">
+        <h3>生活服务</h3>
+        <ul>
+            <li><a href="">大牌</a></li>
+            <li><a href="">男装</a></li>
+            <li><a href="">女装</a></li>
+            <li><a href="">鞋靴</a></li>
+            <li><a href="">箱包</a></li>
+            <li><a href="">内衣配饰</a></li>
+            <li><a href="">珠宝首饰</a></li>
+            <li><a href="">奢品礼品</a></li>
+            <li><a href="">豪华腕表</a></li>
+        </ul>
+        <div class="fushi_pics">
+            <a href=""><img src="服装鞋包.png" style="width: 335px;height: 622px"></a>
+            <ul>
+                <li style="z-index: 2;"><a href=""><img src="大牌.png"></a></li>
+                <li><a href=""><img src="男装.png"></a></li>
+                <li><a href=""><img src="女装.png"></a></li>
+                <li><a href=""><img src="鞋靴.png"></a></li>
+                <li><a href=""><img src="箱包.png"></a></li>
+                <li><a href=""><img src="内衣配饰.png"></a></li>
+                <li><a href=""><img src="珠宝首饰.png"></a></li>
+                <li><a href=""><img src="奢品礼品.png"></a></li>
+                <li><a href=""><img src="奢华腕表.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+ <div id="ttdj">
+     <h3>天天低价</h3>
+     <div class="dijia">
+         <span>
+             <a href="">
+                 <div></div>
+                 <p>Thinkpad 0B47161 无线蓝光鼠标 </p>
+             </a>
+         <b>￥89.00</b>
+         </span>
+     </div>
+ </div>
+    <div id="dkhs"><div class="dkhs_pics"><img src="foot1.png"></div></div>
+<div id="footer1">
+    <dl>
+        <dt>购物指南</dt>
+        <dd><a href="">购物流程</a></dd>
+        <dd><a href="">会员介绍</a></dd>
+        <dd><a href="">生活旅行/团购</a></dd>
+        <dd><a href="">常见问题</a></dd>
+        <dd><a href="">大家电</a></dd>
+        <dd><a href="">联系客服</a></dd>
+    </dl>
+    <dl>
+        <dt>购物指南</dt>
+        <dd><a href="">购物流程</a></dd>
+        <dd><a href="">会员介绍</a></dd>
+        <dd><a href="">生活旅行/团购</a></dd>
+        <dd><a href="">常见问题</a></dd>
+        <dd><a href="">大家电</a></dd>
+        <dd><a href="">联系客服</a></dd>
+    </dl>
+    <dl>
+    <dt>购物指南</dt>
+    <dd><a href="">购物流程</a></dd>
+    <dd><a href="">会员介绍</a></dd>
+    <dd><a href="">生活旅行/团购</a></dd>
+    <dd><a href="">常见问题</a></dd>
+    <dd><a href="">大家电</a></dd>
+    <dd><a href="">联系客服</a></dd>
+</dl>
+    <dl>
+    <dt>购物指南</dt>
+    <dd><a href="">购物流程</a></dd>
+    <dd><a href="">会员介绍</a></dd>
+    <dd><a href="">生活旅行/团购</a></dd>
+    <dd><a href="">常见问题</a></dd>
+    <dd><a href="">大家电</a></dd>
+    <dd><a href="">联系客服</a></dd>
+</dl>
+    <dl>
+    <dt>购物指南</dt>
+    <dd><a href="">购物流程</a></dd>
+    <dd><a href="">会员介绍</a></dd>
+    <dd><a href="">生活旅行/团购</a></dd>
+    <dd><a href="">常见问题</a></dd>
+    <dd><a href="">大家电</a></dd>
+    <dd><a href="">联系客服</a></dd>
+</dl>
+</div>
+<div id="footer2">
+    <ul>
+        <li><a href="">关于我们</a></li>
+        <li><a href="">联系我们</a></li>
+        <li><a href="">商家入驻</a></li>
+        <li><a href="">营销中心</a></li>
+        <li><a href="">手机京东</a></li>
+        <li><a href="">友情链接</a></li>
+        <li><a href="">销售联盟</a></li>
+        <li><a href="">京东公益</a></li>
+        <li><a href="">English Site</a></li>
+        <li style="border: none"><a href="">Contact Us</a></li>
+    </ul>
+</div>
+<div id="backtotop">
+    <span>顶部</span>
+    <a href="javascript:;" id="huidaotop"><img src="回到顶部.png"></a>
+</div>
+</body>
+</html>

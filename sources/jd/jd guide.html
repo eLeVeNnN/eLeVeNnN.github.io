@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{padding: 0}
+        .submenu{
+            border: 2px solid brown;
+            width: 220px;
+        }
+        .subtitle{
+            height: 40px;
+            line-height: 40px;
+            background-color: brown;
+            color: white;
+           font-size: 11pt;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+     .submenu li{
+         list-style: none;
+         height: 30px;
+         line-height: 30px;
+         padding-left: 10px;
+         background-color:rgb(200,22,35);
+         z-index: 3;
+         background-image: url("QQ20160422140741.png");
+         background-repeat: no-repeat;
+         background-position: right;
+     }
+        .submenu li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .submenu li a:hover{color: rgb(200,22,35)!important;}
+        .floatcont{
+            display: none;
+            width: 975px;
+            position: absolute;
+            left: 230px;
+            top: 57px;
+            border: 1px solid rgb(200,22,35);
+            background-color: white;
+            z-index: 4;
+        }
+        .submenu .demo .floatcont{display: block;}
+        .submenu .demo span{float:right;display: inline-block;width: 20px;height: 30px;z-index: 20;
+        position: absolute;left: 220px;top: 58px;
+            background: white;
+        }
+        .leftdiv dl{display: block;border-bottom: 1px solid #EEE;padding-bottom: 6px;overflow:hidden; }
+        .leftdiv dl dt{display: block;float: left;width: 100px;height: 24px;line-height: 24px;text-align: right;padding-right: 20px;}
+        .leftdiv dl dt a{font-size: 10pt;color: #666 !important;font-weight: bold}
+        .leftdiv dl dd{display: block;overflow: hidden}
+        .leftdiv dl dd a{display: block;float: left;color: #737373 !important;font-size: 9pt;border-left: 1px solid #cccccc;padding: 0 10px;
+        height: 14px;line-height: 14px;margin:5px 0;
+        }
+        .demo{background: #ffffff !important;}
+        .demo a{color: #FF0000 !important;}
+    </style>
+    <script>
+        window.onload=function(){
+            var Lis=document.getElementsByTagName("li");
+            for(i=0;i<Lis.length;i++){
+                Lis[i].index=i;
+                Lis[i].onmouseover=function(){
+                    Lis[this.index].className="demo";
+                };
+                Lis[i].onmouseout=function(){
+                    Lis[this.index].className="";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <ul class="submenu">
+        <div class="subtitle">全部商品分类</div>
+        <li><a href="#">家用电器</a><span></span>
+        <div class="floatcont">
+            <div style="float: left;width: 750px;margin: 5px" class="leftdiv">
+                <dl>
+                    <dt><a href="#">大家电 ></a></dt>
+                    <dd>
+                        <a href="#">平板电视</a><a href="#">空调</a><a href="#">冰箱</a><a href="#">洗衣机</a><a href="#">家庭影院</a>
+                        <a href="#">DVD</a><a href="#">迷你音响</a><a href="#">冷柜/冰吧</a><a href="#">酒柜</a><a href="#">家电配件</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">厨卫大电 ></a></dt>
+                    <dd>
+                        <a href="#">油烟机</a><a href="#">燃气灶</a><a href="#">烟灶套装</a><a href="#">消毒柜</a><a href="#">洗碗机</a>
+                        <a href="#">电热水器</a><a href="#">燃气热水泵</a><a href="#">嵌入式厨电</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">厨房小电 ></a></dt>
+                    <dd>
+                        <a href="#">电饭煲</a><a href="#">微波炉</a><a href="#">电烤箱</a><a href="#">电磁炉</a><a href="#">电压力锅</a>
+                        <a href="#">豆浆机</a><a href="#">咖啡机</a><a href="#">面包机</a><a href="#">榨汁机</a><a href="#">料理机</a>
+                        <a href="#">电饼铛</a><a href="#">养生壶/煎药壶</a><a href="#">酸奶机</a><a href="#">煮蛋器</a><a href="#">电水壶/热水瓶</a>
+                        <a href="#">电炖锅</a><a href="#">多用途锅</a><a href="#">电烧烤炉</a><a href="#">电热饭盒</a><a href="#">其他厨房电器</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">生活电器 ></a></dt>
+                    <dd>
+                        <a href="#">电风扇</a><a href="#">冷风扇</a><a href="#">吸尘器</a><a href="#">净化器</a><a href="#">扫地机器人</a>
+                        <a href="#">加湿器</a><a href="#">挂烫机/熨斗</a><a href="#">取暖电器</a><a href="#">插座</a><a href="#">电话机</a>
+                        <a href="#">净水器</a><a href="#">饮水机</a><a href="#">除湿器</a><a href="#">干衣机</a><a href="#">清洁机</a>
+                        <a href="#">收/录音机</a><a href="#">其他生活电器</a><a href="#">生活电器配件</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">个护健康 ></a></dt>
+                    <dd>
+                        <a href="#">剃须刀</a><a href="#">口腔护理</a><a href="#">电吹风</a><a href="#">美容器</a><a href="#">卷/直发器</a>
+                        <a href="#">理发器</a><a href="#">剃/脱毛器</a><a href="#">足浴盆</a><a href="#">健康秤/厨房秤</a><a href="#">按摩器</a>
+                        <a href="#">按摩椅</a><a href="#">血压计</a><a href="#">血糖仪</a><a href="#">体温计</a><a href="#">计步器/脂肪检测仪</a>
+                        <a href="#">其他健康电器</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#">五金家装 ></a></dt>
+                    <dd>
+                        <a href="#">电动工具</a><a href="#">手动工具</a><a href="#">仪器仪表</a><a href="#">浴霸/排气器</a><a href="#">灯具</a>
+                        <a href="#">LED灯</a><a href="#">洁身器</a><a href="#">水槽</a><a href="#">龙头</a><a href="#">淋浴花洒</a>
+                        <a href="#">厨卫五金</a><a href="#">家具五金</a><a href="#">门铃</a><a href="#">电气开关</a><a href="#">插座</a>
+                        <a href="#">电工电科</a><a href="#">监控安防</a><a href="#">电线/线缆</a>
+                    </dd>
+                </dl>
+
+            </div>
+            <div style="background-color: antiquewhite;float: left;width: 200px;margin: 5px">右侧推荐品牌</div>
+        </div></li>
+        <li><a href="#">手机、数码、京东通信</a></li>
+        <li><a href="#">电脑、办公</a></li>
+        <li><a href="#">男装、女装、童装、内衣</a></li>
+        <li><a href="#">个护化妆、清洁用品、宠物</a></li>
+        <li><a href="#">鞋靴、箱包、珠宝、奢侈品</a></li>
+        <li><a href="#">运动户外、钟表</a></li>
+        <li><a href="#">汽车、汽车用品</a></li>
+        <li><a href="#">母婴、玩具乐器</a></li>
+        <li><a href="#">食品、酒类、生鲜、特产</a></li>
+        <li><a href="#">营养保健</a></li>
+        <li><a href="#">图书、音像、电子书</a></li>
+        <li><a href="#">彩票、旅行、充值、票务</a></li>
+        <li><a href="#">理财、众筹、白条、保险</a></li>
+    </ul>
+</body>
+</html>
